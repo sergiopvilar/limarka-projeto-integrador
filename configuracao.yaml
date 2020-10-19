@@ -1,17 +1,18 @@
 ---
-instituicao: Universidade/Faculdade do Brasil
-author: Nome do autor
-title: Título do trabalho
-local: Cidade - UF
-date: '2019'
+instituicao: Centro Universitário de João Pessoa
+author: ""
+title: Alagômetro - Um sistema distribuído de detecção e notificação de alagamentos
+local: João Pessoa - PB
+date: '2020'
 capa_pdf_caminho: ''
 titulacao: Minha-titulação
-curso: Meu-curso
-programa: Programa de Pós-Graduação em XXX
-area_de_concentracao: Computação
+curso: Graduação em Engenharia Elétrica
+programa: ''
+departamento: Departamento de Engenharia Civil, Mecânica e Elétrica
+area_de_concentracao: false
 linha_de_pesquisa: ''
 coorientador: ''
-orientador: Nome-do-Orientador
+orientador: 
 referencias_caminho: referencias.bib
 proposito: ''
 resumo: ''
@@ -22,9 +23,6 @@ resumen: ''
 palabras_clave: ''
 resume: ''
 mots_cles: ''
-siglas:
-- s: ABNT
-  d: Associação Brasileira de Normas Técnicas
 simbolos: 
 dedicatoria: ''
 agradecimentos: ''
@@ -33,11 +31,14 @@ avaliador2: Nome-do-Prof-Convidado2
 aprovacao_dia: '1'
 avaliador1: Nome-do-Prof-Convidado1
 avaliador3: ''
-graduacao: true
+disciplina: 'Física Aplicada I'
+relatorio: false
+projeto_integrador: true
+graduacao: false
 especializacao: false
 mestrado: false
 doutorado: false
-tipo_do_trabalho: Monografia
+tipo_do_trabalho: Projeto Integrador
 incluir_ficha_catalografica: false
 folha_de_aprovacao: false
 projeto: true

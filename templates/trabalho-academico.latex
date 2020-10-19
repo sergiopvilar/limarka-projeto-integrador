@@ -70,7 +70,7 @@
 % Pacotes de citações
 % ---
 \usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
-\usepackage[$referencias_sistema$]{abntex2cite}	% Citações padrão ABNT
+%\usepackage[$referencias_sistema$]{abntex2cite}	% Citações padrão ABNT
 
 % ---
 % CONFIGURAÇÕES DE PACOTES
@@ -97,14 +97,17 @@
 % Informações de dados para CAPA e FOLHA DE ROSTO
 % ---
 \titulo{$title$}
-\autor{$author$}
+\autor{Sérgio Ricardo Pacheco Vilar de Araújo \\ Mikaellen Vitoria Pereira de Melo\\ Vitória Helena Alves Cavalcante}
 \data{$date$}
 \local{$local$}
-\orientador{$orientador$}
 \coorientador{$coorientador$}
 \instituicao{%
   $instituicao$
   \par
+	$departamento$
+	\par
+	$curso$
+	
 $if(graduacao)$
   $curso$
 $endif$
@@ -128,6 +131,12 @@ $if(proposito)$
 $proposito$
 $else$
 % Propósito gerado automaticamente.
+$if(projeto_integrador)$
+Relatório técnico apresentado como requisito parcial de aprovação no Projeto Integrador, no Curso de $curso$ no $instituicao$.
+$endif$
+$if(relatorio)$
+Relatório técnico apresentado como requisito parcial de aprovação na disciplina $disciplina$, no Curso de $curso$ no $instituicao$.
+$endif$
 $if(graduacao)$
 $if(projeto)$Projeto de Monografia apresentado$else$Monografia apresentada$endif$ ao Curso de $curso$ da $instituicao$, como requisito parcial para obtenção do grau de $titulacao$.
 $endif$
